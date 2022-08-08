@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <label>Fahrenheit:</label>
+    <br/>
+    <br/>
+    độ C: <input type="number" id="demo" placeholder="độ C">
+    <br/>
+    <br/>
+    độ F: <input type="number" id="demo2" placeholder="Fahrenheit">
+    <br/>
+    <br/>
+ <button onclick="chuyendoi()"> click me</button>
+</body>
+<script>
+    function chuyendoi(){
+ let C=document.getElementById("demo").value
+ let F = 9/5 *C + 32
+ document.getElementById("demo2").value=F;
+    }
+</script>
+
+
+</html>
